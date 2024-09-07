@@ -26,7 +26,7 @@ This project was developed as part of my **Master 1 Final Project**, in collabor
 ## RAG (Retrieval Augmented Generation) Details
 
 ### Libraries
-- **Chainlit**: Version `1.1.202` is required.
+- **Chainlit**: Version `1.1.202` is required. For more information, refer to the [Chainlit documentation](https://docs.chainlit.io).
 - **LiteralAI**: Version `0.0.606` is essential for proper functionality.  
   **Note:** By default, `pip` may install version `0.0.601` of `literal_ai`, but you must ensure version `0.0.606` is installed for the application to work correctly.
 
@@ -40,10 +40,10 @@ This project was developed as part of my **Master 1 Final Project**, in collabor
    - Create a `.env` file in the root directory of the project with the following environment variables:
 
      ```env
-     CHAINLIT_AUTH_SECRET=<your_chainlit_auth_secret>. You can find documentation [here](https://docs.chainlit.io).
+     CHAINLIT_AUTH_SECRET=<your_chainlit_auth_secret>  # Check the Chainlit documentation for instructions on creating an app
      JWT_SECRET=<your_jwt_secret>  # Generate this using Python or terminal (see details below)
-     MODEL=<your_model>  # Choose from models listed in "personnalisation/modeles_dispo.json". These models should correspond to the models downloaded in Ollama.
-     MODE=<your_mode>    # Choose from modes listed in "personnalisation/messages.json". These messages and images personalize the user experience.
+     MODEL=<your_model>  # Choose from models listed in "personnalisation/modeles_dispo.json". These models should correspond to the models downloaded in Ollama
+     MODE=<your_mode>    # Choose from modes listed in "personnalisation/messages.json". These messages and images personalize the user experience
      LITERAL_API_KEY=<your_literal_api_key>  # Optional, used for data persistence with Literal AI
      ```
 
