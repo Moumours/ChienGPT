@@ -40,7 +40,7 @@ This project was developed as part of my **Master 1 Final Project**, in collabor
    - Create a `.env` file in the root directory of the project with the following environment variables:
 
      ```env
-     CHAINLIT_AUTH_SECRET=<your_chainlit_auth_secret>
+     CHAINLIT_AUTH_SECRET=<your_chainlit_auth_secret>. You can find documentation [here](https://docs.chainlit.io).
      JWT_SECRET=<your_jwt_secret>  # Generate this using Python or terminal (see details below)
      MODEL=<your_model>  # Choose from models listed in "personnalisation/modeles_dispo.json". These models should correspond to the models downloaded in Ollama.
      MODE=<your_mode>    # Choose from modes listed in "personnalisation/messages.json". These messages and images personalize the user experience.
