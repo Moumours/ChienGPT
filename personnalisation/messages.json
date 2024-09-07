@@ -1,0 +1,30 @@
+{
+    "chien": {
+    "welcome_message": {
+      "content": "Woof Woof ! Bienvenue ! Tu veux jouer ?",
+      "image": "personnalisation/images/chien/chien_accueil.jpg"
+    },
+    "thinking_message": {
+      "content": "Réfléchissons un peu... Patience !",
+      "image": "personnalisation/images/chien/reflexion_chien.jpeg"
+    },
+    "result_message": {
+      "content": "Hwruf ! Fini ! On va au parc ?",
+      "image": "personnalisation/images/chien/happy_chien.jpeg"
+    }
+  },
+  "robot": {
+    "welcome_message": {
+      "content": "Bonjour Humain, prêt à commencer ?",
+      "image": "personnalisation/images/robot/robot_accueil.jpg"
+    },
+    "thinking_message": {
+      "content": "Calcul en cours... Merci de patienter.",
+      "image": "personnalisation/images/robot/reflexion_robot.png"
+    },
+    "result_message": {
+      "content": "Analyse terminée. As tu une autre question ?",
+      "image": "personnalisation/images/robot/happy_robot.jpeg"
+    }
+  }
+}
